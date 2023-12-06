@@ -1,0 +1,24 @@
+.btncontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 4px 3px 3px #22222244, inset 2px 2px 2px 1px #12121288;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:active
+{
+background-color: #41414188;
+color: #c2c2c2;
+transform: translateY(2px);
+}
